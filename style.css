@@ -1,0 +1,52 @@
+body,html{
+    background-color:rgb(19, 17, 17);
+}
+
+body #player{
+    width: 900px;
+    height:300px;
+    margin: 200px auto;
+    background-color: white;
+    border:1px solid darkgray;
+    border-radius: 8px;
+}
+
+body #player h3{
+    text-align: center;
+    margin-top:10px;
+}   
+
+body #player #playlist{
+    height:246px;
+    overflow-y: scroll;
+    width:35%;
+}
+
+body #player #playlist .song{
+    margin-top: 5px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size:1.4em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+body #player #playlist .song:hover{
+    background-color: rgb(196, 196, 104);
+}
+
+body #player #playlist .selected{
+    background-color: rgb(196, 196, 104);
+}
+
+
+body #player #manup{
+    background-color: yellow;
+    height:246px;
+    width:65%;
+    position: relative;
+    bottom:246px;
+    left: 315px;
+}
